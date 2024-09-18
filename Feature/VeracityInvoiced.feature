@@ -50,7 +50,7 @@ Then List of the Invoiced should get clear with default list
  And I click on the Invoiced
  And I click on the Invoice Print/ Download of first Result
  And I Clic the Upload Invoice and Submit 
- Then I should able to submit multiple Signed Invoices
+ Then I should able to submit multiple Signed Invoices..
  
  Scenario: Download Signed Invoice
  Given I am on the Home Page
