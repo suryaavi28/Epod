@@ -1,4 +1,4 @@
-Feature: Dashboard Functionlity
+Feature: HomePage Functionality
 
 Scenario: View details In Transit tab 
 Given I am on the Home Page
@@ -28,7 +28,7 @@ Then I should able to see all the details of the Invoice Cleared
 Scenario:View details in the In Transit Graph
 Given I am on the Home Page
 When I navigated to the DashBoard
-And I Change duration in the Graphs for In Transit
+And I Change duration in 	the Graphs for In Transit
 Then I should able to see In Transit Graph of selected duration
 
 Scenario: View Details in the Ready for Invoice Graph
